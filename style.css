@@ -232,8 +232,28 @@ h4 {
 .social-site {
     display: inline-flex;
     justify-content: space-between;
-    padding: 0 6rem;
-    position: relative;  
+}
+
+.social-grid-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "facebook instagram twitter";
+}
+  
+.facebook { 
+    grid-area: facebook; 
+}
+  
+.instagram { 
+    grid-area: instagram; 
+}
+  
+.twitter { 
+    grid-area: twitter; 
 }
 
 /* contact section */
@@ -257,31 +277,45 @@ h4 {
 
 .footer {
     position: absolute;
-    
     width: 100%;
     color: white;
     text-align: center;
-  }
-
-.footer-list {
-    list-style-type: none;
-    display: inline-flex;
-    margin-top: 1rem;
-    margin-right: 6rem;
 }
 
 .footer-list-item {
-    
     color: white;
     text-decoration: none;
 }
 
 .footer-btn {
     text-decoration: none;
-    margin-left: 2rem;
-    margin-right: 2rem;
 }
 
+.footer-grid-container {
+    
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "code-conduct term-service privacy-policy";
+}
+  
+.code-conduct { 
+    grid-area: code-conduct; 
+}
+  
+.term-service {
+    grid-area: term-service; 
+}
+  
+.privacy-policy { 
+    grid-area: privacy-policy; 
+}
+  
 /* conduct page */
 
 .conduct-page {
@@ -391,6 +425,12 @@ h4 {
     margin: 0 auto;
 }
 
+.social-site-container {
+    margin: 0 auto;
+    justify-content: center;
+    display: inline-flex;
+}
+
 #get-involved-social {
     margin-top: 3rem;
     margin-left: 3rem;
@@ -401,13 +441,29 @@ h4 {
     padding-bottom: 2rem;
 }
 
-#get-involved-social-site {
-    display: inline-flex;
-    justify-content: space-between;
-    padding: 0 6.25rem;
-    position: relative;
-    left: 5rem;
+.get-involved-social-grid-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "facebook instagram twitter";
 }
+  
+.get-involved-facebook { 
+    grid-area: facebook; 
+}
+  
+.get-involved-instagram { 
+    grid-area: instagram; 
+}
+  
+.get-involved-twitter { 
+    grid-area: twitter; 
+}
+
+
 
 /* volunteer page */
 
