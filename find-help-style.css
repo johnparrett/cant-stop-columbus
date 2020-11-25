@@ -1,0 +1,196 @@
+/* find help page */
+
+.help {
+    margin-top: 8rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background: white;
+    padding-left: 3rem;
+    padding-top: .5rem;
+    
+}
+
+/*  find help grid section */
+
+.grid-container {
+    margin-top: 3rem;
+    margin-right: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem 1rem;
+    grid-template-areas:
+        "benefit-beers cant-stop-me columbus-arts-hub columbus-helper"
+        "come-together-columbus connectUS cosi-connects curbside-concerts"
+        "emotional-health-matters employ-columbus-now face-masks-for-us freshtrak"
+        "get-columbus-online gravity-uplift keep-learning-cbus meeting-masterpieces"
+        "ohio-ready point-needs-registry remembering-columbus remote-hugs"
+        "tip-columbus tip-columbus we-feed-cbus we-feed-cbus";
+        
+}
+  
+.benefit-beers { 
+    grid-area: benefit-beers; 
+    text-align: center;
+    border: black 1px solid;
+}
+  
+.cant-stop-me { 
+    grid-area: cant-stop-me; 
+    text-align: center;
+    border: black solid 1px;
+}
+  
+.columbus-arts-hub { 
+    grid-area: columbus-arts-hub; 
+    text-align: center;
+    border: black solid 1px;
+}
+
+  .columbus-helper { 
+    grid-area: columbus-helper; 
+    text-align: center;
+    border: black solid 1px;
+  }
+  
+.come-together-columbus { 
+    grid-area: come-together-columbus;
+    text-align: center;
+    border: black solid 1px;
+}
+  
+.connectUS { 
+    grid-area: connectUS;
+    text-align: center;
+    border: black solid 1px; 
+}
+  
+.cosi-connects { 
+    grid-area: cosi-connects;
+    text-align: center;
+    border: black solid 1px; 
+}
+  
+.curbside-concerts { 
+    grid-area: curbside-concerts; 
+    text-align: center;
+    border: black solid 1px;
+}
+  
+.emotional-health-matters { 
+    grid-area: emotional-health-matters;
+    text-align: center;
+    border: black solid 1px; 
+}
+  
+.employ-columbus-now { 
+    grid-area: employ-columbus-now;
+    text-align: center;
+    border: black solid 1px; 
+}
+  
+.face-masks-for-us { 
+    grid-area: face-masks-for-us;
+    text-align: center;
+    border: black solid 1px; 
+}
+  
+.freshtrak { 
+    grid-area: freshtrak;
+    text-align: center;
+    border: black solid 1px;  
+}
+  
+.get-columbus-online { 
+    grid-area: get-columbus-online; 
+    text-align: center;
+    border: black solid 1px; 
+}
+  
+  .gravity-uplift { 
+    grid-area: gravity-uplift; 
+    text-align: center;
+    border: black solid 1px; 
+}
+
+  
+.keep-learning-cbus { 
+    grid-area: keep-learning-cbus; 
+    text-align: center;
+    border: black solid 1px; 
+}
+  
+.meeting-masterpieces { 
+    grid-area: meeting-masterpieces; 
+    text-align: center;
+    border: black solid 1px; 
+}
+
+.ohio-ready { 
+    grid-area: ohio-ready; 
+    text-align: center;
+    border: black solid 1px; 
+}
+  
+.point-needs-registry {
+    grid-area: point-needs-registry; 
+    text-align: center;
+    border: black solid 1px; 
+}
+  
+.remembering-columbus {
+    grid-area: remembering-columbus;
+    text-align: center;
+    border: black solid 1px;  
+}
+  
+.remote-hugs { 
+    grid-area: remote-hugs;
+    text-align: center;
+    border: black solid 1px; 
+}
+  
+.tip-columbus {
+    grid-area: tip-columbus;
+    text-align: center;
+    border: black solid 1px; 
+    height: 75%;
+}
+  
+.we-feed-cbus { 
+    grid-area: we-feed-cbus; 
+    text-align: center;
+    border: black solid 1px;
+    height: 75%;
+}
+
+  /*  find help grid section end*/
+
+.find-help-img {
+    width: 10rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.find-help-image {
+    width: 4.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.find-help-info {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+    
+}
+
+.site-link:hover {
+    text-decoration: underline;
+}
+
+.help-site-link {
+    text-decoration: none;
+}
