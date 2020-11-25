@@ -10,9 +10,9 @@
 /* conduct page line 285 */
 /* terms of service page 309 */
 /* privacy page 328 */
-/* find help page 351 */
-/* get involved page 548 */
-/* volunteer page 609 */
+/* get involved page 351 */
+/* volunteer page 412 */
+/*  */
 /*  */
 /*  */
 /*  */
@@ -440,18 +440,16 @@ h4 {
     
     -webkit-box-shadow: 0 0 3px rgba(75, 0, 255, 0.96) !important;
     
-    }
+}
     
-    input:focus, textarea:focus, select:focus {
+input:focus, textarea:focus, select:focus {
     
     outline-offset: 0px !important;
     
     outline: none !important;
     
-    }
+}
     
-    
-
 .volunteer-label {
     margin-bottom: 5rem;
 }
@@ -509,7 +507,6 @@ h4 {
 
 .checkbox-container-container {
     width: 15%;
-
     margin: 0 auto;
     padding-top: 1rem;
     padding-bottom: 1rem;

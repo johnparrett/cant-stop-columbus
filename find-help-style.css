@@ -1,3 +1,6 @@
+/* find help page 4 */
+/* find help grid 44 */
+
 /* find help page */
 
 .help {
@@ -7,7 +10,35 @@
     background: white;
     padding-left: 3rem;
     padding-top: .5rem;
+}
+
+.find-help-img {
+    width: 10rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.find-help-image {
+    width: 4.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.find-help-info {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    font-size: 1rem;
     
+}
+
+.site-link:hover {
+    text-decoration: underline;
+}
+
+.help-site-link {
+    text-decoration: none;
 }
 
 /*  find help grid section */
@@ -162,35 +193,4 @@
     text-align: center;
     border: black solid 1px;
     height: 75%;
-}
-
-  /*  find help grid section end*/
-
-.find-help-img {
-    width: 10rem;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.find-help-image {
-    width: 4.5rem;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.find-help-info {
-    text-align: center;
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 2rem;
-    font-size: 1rem;
-    
-}
-
-.site-link:hover {
-    text-decoration: underline;
-}
-
-.help-site-link {
-    text-decoration: none;
 }

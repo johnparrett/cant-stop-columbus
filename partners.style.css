@@ -1,3 +1,10 @@
+/* partners page 8 */
+/* community partners grid 48 */
+/* angel seciton 191 */
+/* kind angel section 219 */
+/* angel grid 232 */
+/* allies table 286 */
+
 /* partners page */
 
 .partners {
@@ -18,6 +25,24 @@
     padding-left: 3rem;
     padding-top: .5rem;
     padding-bottom: 2rem;
+}
+
+.partner-img {
+    width: 6rem;
+    margin-top: 2rem;
+}
+
+.partner-site {
+    text-decoration: none;
+}
+
+#partner-name {
+    font-size: 1rem;
+    
+}
+
+.partner-site:hover {
+    text-decoration: underline
 }
 
 /* community partners grid */
@@ -163,26 +188,6 @@
     border: black solid 1px;
 }
 
-/* community grid container end */
-
-.partner-img {
-    width: 6rem;
-    margin-top: 2rem;
-}
-
-.partner-site {
-    text-decoration: none;
-}
-
-#partner-name {
-    font-size: 1rem;
-    
-}
-
-.partner-site:hover {
-    text-decoration: underline
-}
-
 /* Angel Section */
 
 .angels {
@@ -210,6 +215,7 @@
       text-align: center;
       border: solid black 1px; 
 }
+
 /* Kind-Angel section */
 
 .kind-angel {
@@ -276,8 +282,6 @@
     text-align: center;
     border: black solid 1px;
 }
-  
-/* angel grid end */
 
 /* allies table */
 
