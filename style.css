@@ -292,6 +292,7 @@ h4 {
 }
 
 .footer-grid-container {
+    margin-right: 2rem;
     list-style-type: none;
     text-decoration: none;
     text-align: center;
@@ -413,16 +414,25 @@ h4 {
     padding-bottom: 2rem;
 }
 
-.list-container {
-    display: flex;
-    margin: 0 auto;
-    margin-left: 0;
-    width: 90%
+.skill-list-grid-container {
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "skill-list1 skill-list2 skill-list3";
+}
+      
+      .skill-list1 { grid-area: skill-list1; }
+      
+      .skill-list2 { grid-area: skill-list2; }
+      
+      .skill-list3 { grid-area: skill-list3; }
+      
 }
 
-.skill-list {
-    margin: 0 auto;
-}
+
 
 .social-site-container {
     margin: 0 auto;
@@ -441,6 +451,7 @@ h4 {
 }
 
 .get-involved-social-grid-container {
+    margin-right: 2rem;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
